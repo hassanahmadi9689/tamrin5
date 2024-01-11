@@ -28,22 +28,22 @@ static void Run()
             var year = GetNumberFromUser("choose:\n" +
                                          "1=year1\n" +
                                          "2=year2");
-            var name = GetValidStringFromUser("enter name of student");
-            var id = GetNumberFromUser("enter id");
+            var name = GetValidStringFromUser("enter name of student :");
+            var id = GetNumberFromUser("enter id :");
             Management.AddStudent(name,id,year);
             break;
         }
         case 2:
         {
-            var name = GetValidStringFromUser("enter name");
-            var score = GetNumberFromUser("enter score");
+            var name = GetValidStringFromUser("enter name :");
+            var score = GetNumberFromUser("enter score :");
             Management.AddMathScore(name,score);
             break;
         }
         case 3:
         {
-            var name = GetValidStringFromUser("enter name");
-            var score = GetNumberFromUser("enter score");
+            var name = GetValidStringFromUser("enter name :");
+            var score = GetNumberFromUser("enter score :");
             Management.AddfhysicsScore(name, score);
             break;
         }
